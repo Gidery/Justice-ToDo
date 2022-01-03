@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=0"
+    />
+    <title>Justice ToDo</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrap">
+          <div class="header__logo">JUSTICE</div>
+          <div class="header__nav">
+            <div class="nav__icon">
+              <span></span>
+            </div>
+
+            <ul class="navlist">
+              <li class="navlist__item">
+                <a class="navlist__link">Главная</a>
+              </li>
+              <li class="navlist__item">
+                <a class="navlist__link">Список</a>
+              </li>
+              <li class="navlist__item">
+                <a class="navlist__link">Друзья</a>
+              </li>
+              <li class="navlist__item">
+                <a class="navlist__link">Контакты</a>
+              </li>
+            </ul>
+
+            <div class="btns">
+              <button class="exit-btn">Выйти</button>
+              <button class="bell-btn"></button>
+              <button class="profile-btn"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="wrapper">
+        <section class="control-wrap">
+          <div class="control-menu">
+            <button class="control-btn">Список</button>
+            <button class="control-btn">Напоминания</button>
+            <button class="control-btn">Ещё</button>
+          </div>
+          <form class="addItem-form">
+            <input
+              type="text"
+              placeholder="Введите текст"
+              class="addItem-form__field"
+            />
+            <button type="submit" class="addItem-form__submit">
+              Добавить <span class="addItem-form__plus">+</span>
+            </button>
+          </form>
+        </section>
+
+        <section class="todoList"></section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <section class="footer__wrap">
+          <div class="footer__logo">JUSTICE</div>
+          <ul class="navlist">
+            <li class="navlist__item">Главная</li>
+            <li class="navlist__item">Список</li>
+            <li class="navlist__item">Друзья</li>
+            <li class="navlist__item">Контакты</li>
+          </ul>
+        </section>
+        <section class="legalInfo">
+          <span class="legalInfo__item">
+            © 2021 Justice-team. All rights reserved.
+          </span>
+          <span class="legalInfo__item">Terms & conditions</span>
+          <span class="legalInfo__item">Privacy Policy</span>
+        </section>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
